@@ -1,0 +1,401 @@
+[2025-06-08 16:14:20,064] INFO [django.utils.autoreload] Watching for file changes with StatReloader
+[2025-06-08 16:14:20,064] INFO [django.utils.autoreload] Watching for file changes with StatReloader
+[2025-06-08 16:14:28,614] WARNING [django.request] Unauthorized: /classes/
+[2025-06-08 16:14:28,614] WARNING [django.request] Unauthorized: /classes/
+[2025-06-08 16:14:28,614] WARNING [django.server] "GET /classes/ HTTP/1.1" 401 172
+[2025-06-08 16:14:28,614] WARNING [django.server] "GET /classes/ HTTP/1.1" 401 172
+[2025-06-08 16:14:41,126] INFO [django.server] "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-06-08 16:14:41,126] INFO [django.server] "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-06-08 16:15:00,372] INFO [bookings.views] FitnessClassListView accessed by user ankit. Returned 0 classes.
+[2025-06-08 16:15:00,380] INFO [django.server] "GET /classes/ HTTP/1.1" 200 2
+[2025-06-08 16:15:00,380] INFO [django.server] "GET /classes/ HTTP/1.1" 200 2
+[2025-06-08 16:15:36,496] INFO [bookings.views] BookingListView accessed by user ankit. Email filter: ankit@example.com. Returned 0 bookings.
+[2025-06-08 16:15:36,501] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 2
+[2025-06-08 16:15:36,501] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 2
+[2025-06-08 16:33:32,577] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 11805
+[2025-06-08 16:33:32,577] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 11805
+[2025-06-08 16:33:35,435] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:33:35,435] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:33:35,437] WARNING [django.server] "GET /book/ HTTP/1.1" 401 3742
+[2025-06-08 16:33:35,437] WARNING [django.server] "GET /book/ HTTP/1.1" 401 3742
+[2025-06-08 16:33:36,053] WARNING [django.request] Unauthorized: /classes/
+[2025-06-08 16:33:36,053] WARNING [django.request] Unauthorized: /classes/
+[2025-06-08 16:33:36,054] WARNING [django.server] "GET /classes/ HTTP/1.1" 401 5089
+[2025-06-08 16:33:36,054] WARNING [django.server] "GET /classes/ HTTP/1.1" 401 5089
+[2025-06-08 16:36:14,262] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:36:14,262] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:36:14,264] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 16:36:14,264] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 16:36:25,466] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:36:25,466] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:36:25,471] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 16:36:25,471] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 16:36:29,829] WARNING [django.request] Unauthorized: /classes/
+[2025-06-08 16:36:29,829] WARNING [django.request] Unauthorized: /classes/
+[2025-06-08 16:36:29,829] WARNING [django.server] "GET /classes/ HTTP/1.1" 401 172
+[2025-06-08 16:36:29,829] WARNING [django.server] "GET /classes/ HTTP/1.1" 401 172
+[2025-06-08 16:36:35,584] INFO [django.server] "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-06-08 16:36:35,584] INFO [django.server] "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-06-08 16:36:51,987] INFO [bookings.views] FitnessClassListView accessed by user ankit. Returned 0 classes.
+[2025-06-08 16:36:51,992] INFO [django.server] "GET /classes/ HTTP/1.1" 200 2
+[2025-06-08 16:36:51,992] INFO [django.server] "GET /classes/ HTTP/1.1" 200 2
+[2025-06-08 16:37:08,614] ERROR [bookings.views] Booking failed - class_id 1 not found. User: ankit
+[2025-06-08 16:37:08,617] WARNING [django.request] Not Found: /book/
+[2025-06-08 16:37:08,617] WARNING [django.request] Not Found: /book/
+[2025-06-08 16:37:08,618] WARNING [django.server] "POST /book/ HTTP/1.1" 404 36
+[2025-06-08 16:37:08,618] WARNING [django.server] "POST /book/ HTTP/1.1" 404 36
+[2025-06-08 16:37:19,466] WARNING [django.request] Unauthorized: /bookings/
+[2025-06-08 16:37:19,466] WARNING [django.request] Unauthorized: /bookings/
+[2025-06-08 16:37:19,469] WARNING [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 401 172
+[2025-06-08 16:37:19,469] WARNING [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 401 172
+[2025-06-08 16:37:29,282] INFO [bookings.views] BookingListView accessed by user ankit. Email filter: ankit@example.com. Returned 0 bookings.
+[2025-06-08 16:37:29,286] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 2
+[2025-06-08 16:37:29,286] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 2
+[2025-06-08 16:37:41,500] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:37:41,500] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:37:41,500] WARNING [django.server] "POST /book/ HTTP/1.1" 400 108
+[2025-06-08 16:37:41,500] WARNING [django.server] "POST /book/ HTTP/1.1" 400 108
+[2025-06-08 16:38:45,985] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:38:45,985] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:38:45,987] WARNING [django.server] "POST /book/ HTTP/1.1" 400 108
+[2025-06-08 16:38:45,987] WARNING [django.server] "POST /book/ HTTP/1.1" 400 108
+[2025-06-08 16:38:48,260] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:38:48,260] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:38:48,264] WARNING [django.server] "POST /book/ HTTP/1.1" 400 108
+[2025-06-08 16:38:48,264] WARNING [django.server] "POST /book/ HTTP/1.1" 400 108
+[2025-06-08 16:38:55,318] WARNING [bookings.views] Booking failed - Missing fields. User: ankit
+[2025-06-08 16:38:55,318] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:38:55,318] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:38:55,332] WARNING [django.server] "POST /book/ HTTP/1.1" 400 36
+[2025-06-08 16:38:55,332] WARNING [django.server] "POST /book/ HTTP/1.1" 400 36
+[2025-06-08 16:39:12,327] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:39:12,327] WARNING [django.request] Bad Request: /book/
+[2025-06-08 16:39:12,329] WARNING [django.server] "POST /book/ HTTP/1.1" 400 82
+[2025-06-08 16:39:12,329] WARNING [django.server] "POST /book/ HTTP/1.1" 400 82
+[2025-06-08 16:39:19,160] ERROR [bookings.views] Booking failed - class_id 1 not found. User: ankit
+[2025-06-08 16:39:19,160] WARNING [django.request] Not Found: /book/
+[2025-06-08 16:39:19,160] WARNING [django.request] Not Found: /book/
+[2025-06-08 16:39:19,167] WARNING [django.server] "POST /book/ HTTP/1.1" 404 36
+[2025-06-08 16:39:19,167] WARNING [django.server] "POST /book/ HTTP/1.1" 404 36
+[2025-06-08 16:40:28,373] INFO [django.server] "GET /admin/ HTTP/1.1" 200 7828
+[2025-06-08 16:40:28,373] INFO [django.server] "GET /admin/ HTTP/1.1" 200 7828
+[2025-06-08 16:40:28,480] INFO [django.server] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,480] INFO [django.server] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,486] INFO [django.server] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,486] INFO [django.server] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,494] INFO [django.server] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[2025-06-08 16:40:28,494] INFO [django.server] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,496] INFO [django.server] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,494] INFO [django.server] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[2025-06-08 16:40:28,496] INFO [django.server] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,494] INFO [django.server] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,496] INFO [django.server] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,496] INFO [django.server] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2025-06-08 16:40:28,507] INFO [django.server] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2025-06-08 16:40:28,507] INFO [django.server] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2025-06-08 16:40:28,515] INFO [django.server] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:28,517] INFO [django.server] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:28,515] INFO [django.server] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:28,517] INFO [django.server] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:31,256] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 8815
+[2025-06-08 16:40:31,256] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 8815
+[2025-06-08 16:40:31,354] INFO [django.server] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2025-06-08 16:40:31,357] INFO [django.server] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,354] INFO [django.server] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2025-06-08 16:40:31,359] INFO [django.server] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,357] INFO [django.server] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,361] INFO [django.server] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,363] INFO [django.server] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,359] INFO [django.server] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,366] INFO [django.server] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,361] INFO [django.server] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,373] INFO [django.server] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,363] INFO [django.server] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,366] INFO [django.server] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,373] INFO [django.server] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,380] INFO [django.server] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,380] INFO [django.server] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,380] INFO [django.server] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,380] INFO [django.server] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,399] INFO [django.server] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,399] INFO [django.server] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2025-06-08 16:40:31,399] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:40:31,399] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:40:31,437] INFO [django.server] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:31,437] INFO [django.server] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:34,393] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 11805
+[2025-06-08 16:40:34,393] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 11805
+[2025-06-08 16:40:34,449] INFO [django.server] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2025-06-08 16:40:34,449] INFO [django.server] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2025-06-08 16:40:34,474] INFO [django.server] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,474] INFO [django.server] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2025-06-08 16:40:34,476] INFO [django.server] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,477] INFO [django.server] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,474] INFO [django.server] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,474] INFO [django.server] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2025-06-08 16:40:34,476] INFO [django.server] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,477] INFO [django.server] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,485] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:40:34,485] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:40:34,496] INFO [django.server] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,496] INFO [django.server] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2025-06-08 16:40:34,544] INFO [django.server] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:34,544] INFO [django.server] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:34,545] INFO [django.server] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2025-06-08 16:40:34,545] INFO [django.server] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2025-06-08 16:44:04,357] INFO [django.server] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 2455
+[2025-06-08 16:44:04,357] INFO [django.server] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 2455
+[2025-06-08 16:44:30,737] INFO [django.server] "POST /admin/bookings/fitnessclass/add/ HTTP/1.1" 302 0
+[2025-06-08 16:44:30,737] INFO [django.server] "POST /admin/bookings/fitnessclass/add/ HTTP/1.1" 302 0
+[2025-06-08 16:44:30,782] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 12114
+[2025-06-08 16:44:30,782] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 12114
+[2025-06-08 16:44:30,931] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:44:30,931] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:44:30,969] INFO [django.server] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2025-06-08 16:44:30,969] INFO [django.server] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2025-06-08 16:45:24,319] INFO [django.server] "POST /admin/bookings/fitnessclass/add/ HTTP/1.1" 302 0
+[2025-06-08 16:45:24,319] INFO [django.server] "POST /admin/bookings/fitnessclass/add/ HTTP/1.1" 302 0
+[2025-06-08 16:45:24,471] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10936
+[2025-06-08 16:45:24,471] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10936
+[2025-06-08 16:45:24,542] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:45:24,542] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 16:45:32,971] WARNING [django.request] Unauthorized: /bookings/
+[2025-06-08 16:45:32,971] WARNING [django.request] Unauthorized: /bookings/
+[2025-06-08 16:45:32,971] WARNING [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 401 172
+[2025-06-08 16:45:32,971] WARNING [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 401 172
+[2025-06-08 16:45:47,062] WARNING [django.request] Unauthorized: /bookings/
+[2025-06-08 16:45:47,062] WARNING [django.request] Unauthorized: /bookings/
+[2025-06-08 16:45:47,070] WARNING [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 401 172
+[2025-06-08 16:45:47,070] WARNING [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 401 172
+[2025-06-08 16:45:50,783] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:45:50,783] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 16:45:50,783] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 16:45:50,783] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 16:45:57,681] INFO [django.server] "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-06-08 16:45:57,681] INFO [django.server] "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-06-08 16:46:12,768] INFO [bookings.views] BookingListView accessed by user ankit. Email filter: ankit@example.com. Returned 0 bookings.
+[2025-06-08 16:46:12,774] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 2
+[2025-06-08 16:46:12,774] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 2
+[2025-06-08 16:46:29,752] INFO [bookings.views] Booking successful - booking_id 1, class_id 1, client_email ankit@example.com, user ankit
+[2025-06-08 16:46:29,753] INFO [django.server] "POST /book/ HTTP/1.1" 201 48
+[2025-06-08 16:46:29,753] INFO [django.server] "POST /book/ HTTP/1.1" 201 48
+[2025-06-08 16:46:47,621] INFO [bookings.views] FitnessClassListView accessed by user ankit. Returned 2 classes.
+[2025-06-08 16:46:47,623] INFO [django.server] "GET /classes/ HTTP/1.1" 200 270
+[2025-06-08 16:46:47,623] INFO [django.server] "GET /classes/ HTTP/1.1" 200 270
+[2025-06-08 16:47:02,745] INFO [bookings.views] BookingListView accessed by user ankit. Email filter: ankit@example.com. Returned 1 bookings.
+[2025-06-08 16:47:02,749] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 141
+[2025-06-08 16:47:02,749] INFO [django.server] "GET /bookings/?email=ankit@example.com HTTP/1.1" 200 141
+[2025-06-08 17:08:36,505] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:36,505] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:36,676] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:36,676] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:38,311] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:38,311] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:38,356] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:38,356] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:41,673] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:41,673] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:41,732] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:41,732] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:42,929] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:42,929] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:42,988] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:42,988] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:44,448] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:44,448] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:44,504] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:44,504] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:45,645] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:45,645] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:45,706] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:45,706] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:46,859] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:46,859] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:46,913] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:46,913] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:48,005] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:48,005] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:48,071] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:48,071] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:49,105] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:49,105] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:49,166] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:49,166] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:50,105] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:50,105] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:50,162] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:50,162] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:51,876] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:51,876] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:51,949] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:51,949] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:53,225] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:53,225] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:53,292] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:53,292] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:54,556] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:54,556] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:54,610] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:54,610] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:55,905] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:55,905] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:08:55,958] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:55,958] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:56,954] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:56,954] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:08:57,009] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:08:57,009] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:11,759] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:12:11,759] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:12:11,814] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:11,814] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:11,822] INFO [django.server] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2025-06-08 17:12:11,822] INFO [django.server] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2025-06-08 17:12:18,518] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:18,518] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:18,572] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:18,572] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:22,055] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:22,055] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:22,116] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:22,116] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:32,703] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:32,703] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:32,761] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:32,761] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:34,492] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:34,492] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:34,558] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:34,558] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:35,878] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:35,878] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:35,936] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:35,936] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:37,285] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:37,285] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:37,346] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:37,346] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:41,392] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 11805
+[2025-06-08 17:12:41,392] INFO [django.server] "GET /admin/bookings/fitnessclass/add/ HTTP/1.1" 200 11805
+[2025-06-08 17:12:41,457] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:41,457] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:44,655] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:44,655] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:44,714] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:44,714] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:47,610] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:12:47,610] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:12:47,674] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:47,674] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:55,263] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:55,263] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:12:57,243] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:57,243] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:12:57,310] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:12:57,310] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:00,625] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:00,625] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:00,682] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:00,682] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:03,046] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:03,046] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:03,103] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:03,103] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:05,892] INFO [django.server] "GET /admin/bookings/fitnessclass/1/change/ HTTP/1.1" 200 12256
+[2025-06-08 17:13:05,892] INFO [django.server] "GET /admin/bookings/fitnessclass/1/change/ HTTP/1.1" 200 12256
+[2025-06-08 17:13:05,948] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:05,948] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:09,236] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:09,236] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:09,300] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:09,300] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:11,477] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:11,477] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:11,530] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:11,530] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:13,999] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:13,999] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:14,071] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:14,071] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:16,025] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:13:16,025] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:13:16,084] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:16,084] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:20,741] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:20,741] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:20,800] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:20,800] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:22,064] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:22,064] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10105
+[2025-06-08 17:13:22,117] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:22,117] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:25,084] INFO [django.server] "GET /admin/bookings/booking/add/ HTTP/1.1" 200 12205
+[2025-06-08 17:13:25,084] INFO [django.server] "GET /admin/bookings/booking/add/ HTTP/1.1" 200 12205
+[2025-06-08 17:13:25,147] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:25,147] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:48,855] INFO [django.server] "POST /admin/bookings/booking/add/ HTTP/1.1" 302 0
+[2025-06-08 17:13:48,855] INFO [django.server] "POST /admin/bookings/booking/add/ HTTP/1.1" 302 0
+[2025-06-08 17:13:48,897] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10629
+[2025-06-08 17:13:48,897] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10629
+[2025-06-08 17:13:48,955] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:48,955] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:51,254] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:51,254] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:13:51,315] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:51,315] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:54,471] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10408
+[2025-06-08 17:13:54,471] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10408
+[2025-06-08 17:13:54,527] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:54,527] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:56,463] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:13:56,463] INFO [django.server] "GET /admin/bookings/booking/1/change/ HTTP/1.1" 200 12535
+[2025-06-08 17:13:56,517] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:13:56,517] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:01,295] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:14:01,295] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:14:01,352] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:01,352] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:03,159] INFO [django.server] "GET /admin/bookings/fitnessclass/1/change/ HTTP/1.1" 200 12256
+[2025-06-08 17:14:03,159] INFO [django.server] "GET /admin/bookings/fitnessclass/1/change/ HTTP/1.1" 200 12256
+[2025-06-08 17:14:03,222] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:03,222] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:07,930] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10408
+[2025-06-08 17:14:07,930] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10408
+[2025-06-08 17:14:07,991] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:07,991] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:10,955] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:14:10,955] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:14:11,021] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:11,021] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:15,096] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10408
+[2025-06-08 17:14:15,096] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10408
+[2025-06-08 17:14:15,153] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:15,153] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:19,756] INFO [django.server] "GET /admin/bookings/booking/add/ HTTP/1.1" 200 12205
+[2025-06-08 17:14:19,756] INFO [django.server] "GET /admin/bookings/booking/add/ HTTP/1.1" 200 12205
+[2025-06-08 17:14:19,820] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:19,820] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:38,790] INFO [django.server] "POST /admin/bookings/booking/add/ HTTP/1.1" 302 0
+[2025-06-08 17:14:38,790] INFO [django.server] "POST /admin/bookings/booking/add/ HTTP/1.1" 302 0
+[2025-06-08 17:14:38,842] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10997
+[2025-06-08 17:14:38,842] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10997
+[2025-06-08 17:14:38,901] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:38,901] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:41,823] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:14:41,823] INFO [django.server] "GET /admin/bookings/fitnessclass/ HTTP/1.1" 200 10644
+[2025-06-08 17:14:41,878] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:41,878] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:48,571] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10754
+[2025-06-08 17:14:48,571] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10754
+[2025-06-08 17:14:48,695] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:48,695] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:51,501] INFO [django.server] "GET /admin/bookings/booking/3/change/ HTTP/1.1" 200 12575
+[2025-06-08 17:14:51,501] INFO [django.server] "GET /admin/bookings/booking/3/change/ HTTP/1.1" 200 12575
+[2025-06-08 17:14:51,571] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:51,571] INFO [django.server] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-06-08 17:14:58,911] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10754
+[2025-06-08 17:14:58,911] INFO [django.server] "GET /admin/bookings/booking/ HTTP/1.1" 200 10754
+[2025-06-08 17:15:16,858] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 17:15:16,858] WARNING [django.request] Unauthorized: /book/
+[2025-06-08 17:15:16,860] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172
+[2025-06-08 17:15:16,860] WARNING [django.server] "POST /book/ HTTP/1.1" 401 172

@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  fitness_api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+
